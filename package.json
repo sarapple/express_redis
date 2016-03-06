@@ -1,0 +1,32 @@
+{
+  "name": "express_redis",
+  "version": "1.0.0",
+  "description": "A boiler plate for node, using express and redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarapple/express_redis.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Sara Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarapple/express_redis/issues"
+  },
+  "homepage": "https://github.com/sarapple/express_redis#readme",
+  "dependencies": {
+    "express" : "^4.13.3",
+    "nconf" : "^0.8.2",
+		"redis" : "^2.4.2",
+		"body-parser": "^1.15.0",
+		"cookie-parser": "^1.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
